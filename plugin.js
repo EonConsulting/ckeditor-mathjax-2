@@ -47,7 +47,7 @@
 
                 data: function () {
                         //this.element.setValue(this.data.math);
-                        this.parts.span.Preview(this.data.math);
+                        this.parts.span.setHtml(this.data.math);
 
                 },
                 upcast: function( el, data ) {
